@@ -2,9 +2,6 @@ import boto3
 from botocore.exceptions import NoCredentialsError, ClientError
 
 def list_s3_buckets():
-    # Dummy AWS credentials
-    aws_access_key_id = "AKIAA1B2C3D4E5F6G7H8"
-    aws_secret_access_key = "B1c2D3e4F5g6H7i8J9k0L1m2N3o4P5q6R7s8T9uv"
     
     try:
         # Create a session using the dummy credentials
