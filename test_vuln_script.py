@@ -1,6 +1,8 @@
 import boto3
 from botocore.exceptions import NoCredentialsError, ClientError
 
+google_cloud_api_key = "AIzaSyA1B2C3D4E5F6G7H8I9J0K1L2M3N4O5P6"
+
 def list_s3_buckets():
     
     try:
